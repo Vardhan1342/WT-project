@@ -1,0 +1,218 @@
+#title
+{
+    background-color: #D14D72;
+   padding-bottom: 8%;
+}
+    /* title image */
+
+    .title-image
+    {
+			
+       height:70vh;
+			position: absolute;
+    }
+      
+       /* meadia query */
+
+@media (max-width:993px) {
+   
+   
+    #title{
+        text-align: center;
+    }
+    
+    .title-image
+    {
+    position: relative;
+    height: 20em;
+    width: 20em;
+		top: 3.6rem;
+  
+
+
+    }
+    
+}
+
+
+.container-fluid
+{
+    padding: 5% 15%;
+}
+h1
+{  
+    font-family: "Montserrat-Black";
+    font-size: 4rem;
+    line-height: 1;    
+}
+
+
+h3{
+    font-family: "Montserrat-Black";
+}
+p
+{
+ color:#8f8f8f;
+}
+
+#features
+{   
+    background-color: white;
+    padding:8% 0;
+    position:relative;
+    z-index: 1;
+    
+    
+}
+.feature-text 
+{
+    text-align: center;
+    padding: 3rem;
+}
+
+
+#press
+{
+    padding: 4rem 0;
+}
+
+   /* navigation bars */
+
+
+ 
+
+.navbar
+{
+    padding-bottom: 3rem;
+}
+
+.navbar-brand
+{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item
+{
+    padding: 0 18px ;
+}
+.download-button
+{
+    margin: 10% 5% 0 0;
+   
+}
+
+
+
+
+        /* icons */
+
+.appleicon
+{
+    margin-right:10px;
+}
+.second-icons
+{
+   color:#ef8f8f;
+   margin-bottom: 1rem;
+
+}
+.second-icons:hover{
+    color: #ef8172;
+}
+
+
+
+        /* testimonial */
+ 
+.testimonial-text
+{
+    font-family: "Montserrat-Black";
+    color:white;
+    font-weight: bold;
+    font-size: 350%;
+    text-align: center;
+    padding: 4rem 4.5rem;
+   
+}
+   
+.dog-info
+{
+    background-color:   #ef8172;
+    text-align: center;
+ 
+}
+.dog-pic
+{
+    border-radius: 100%;
+    width: 20%;
+    margin:20px;
+}
+
+
+
+      /* press */
+
+ #press
+ 
+ {
+    background-color: #ef8172;
+    text-align: center;
+    
+ }
+
+
+
+        /* companies */
+
+.logo
+{   
+    padding: 10px 30px;
+    width: 20%;
+    margin:10px;
+    
+}
+
+
+/* pricing */
+
+#pricing
+{
+    padding: 7%;
+}
+.card-deck
+{
+    padding: 7% 0;
+}
+.card
+{
+  
+    width: 22rem;
+}
+
+    /* cta */
+
+#cta
+{
+    background-color: #ff4c68;
+    text-align: center;
+    
+}
+.cta-text
+{
+    font-family: "Montserrat-Black";
+    color:white;
+    font-weight: bold;
+    font-size: 370%;
+    text-align: center;
+    padding: 4rem 4.5rem;
+}
+.down-icon
+{
+    margin-right: 1.2%;
+}
+.last-icon
+{
+    padding:2% 0.5%;
+}
+
